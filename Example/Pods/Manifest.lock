@@ -1,5 +1,7 @@
 PODS:
-  - WCLib (0.1.0)
+  - WCLib (0.1.0):
+    - WCLib/Wechat_NoPay (= 0.1.0)
+  - WCLib/Wechat_NoPay (0.1.0)
 
 DEPENDENCIES:
   - WCLib (from `../`)
@@ -9,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WCLib: 49955e009000ac8ddbcd7205dc42a6f06c338623
+  WCLib: 915a64738a3e06378feb993cf4395fdc4ee21656
 
 PODFILE CHECKSUM: 067fbc15508784b9f26039c94b867157c7b88710
 

@@ -7,6 +7,7 @@
 //
 
 #import "WCViewController.h"
+#import <WCLib/WXApi.h>
 
 @interface WCViewController ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [WXApi version];
+    [WXApi registerApp:@"" universalLink:@""];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
