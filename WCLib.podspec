@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Wechat_NoPay' do |we|
     we.source_files = [
-    'WCLib/Classes/Wechat_NoPay/1.8.9/*.h',
+    'WCLib/Classes/Wechat_NoPay/1.8.9/*.h'
     ]
 	we.vendored_libraries = 'WCLib/Classes/Wechat_NoPay/1.8.9/libWeChatSDK.a'
     #SystemConfiguration.framework, libz.dylib, libsqlite3.0.dylib, libc++.dylib, Security.framework, CoreTelephony.framework, CFNetwork.framework。
