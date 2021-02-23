@@ -1,1 +1,1 @@
-../../../../../WCLib/Classes/Wechat_NoPay/1.8.9/WechatAuthSDK.h
+../../../../../WCLib/Classes/Wechat_NoPay/1.8.6/WechatAuthSDK.h

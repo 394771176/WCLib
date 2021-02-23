@@ -27,9 +27,9 @@
     {
       "name": "Wechat_NoPay",
       "source_files": [
-        "WCLib/Classes/Wechat_NoPay/1.8.9/*.h"
+        "WCLib/Classes/Wechat_NoPay/1.8.6/*.h"
       ],
-      "vendored_libraries": "WCLib/Classes/Wechat_NoPay/1.8.9/libWeChatSDK.a",
+      "vendored_libraries": "WCLib/Classes/Wechat_NoPay/1.8.6/libWeChatSDK.a",
       "libraries": [
         "z",
         "c++",

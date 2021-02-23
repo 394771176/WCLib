@@ -1,1 +1,1 @@
-../../../../../WCLib/Classes/Wechat_NoPay/1.8.9/WXApi.h
+../../../../../WCLib/Classes/Wechat_NoPay/1.8.6/WXApi.h

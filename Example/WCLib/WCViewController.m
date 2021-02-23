@@ -21,7 +21,7 @@
     
     [WXApi version];
 //    [WXApi registerApp:@""];
-    [WXApi registerApp:@"" universalLink:@""];
+//    [WXApi registerApp:@"" universalLink:@""];
     
 	// Do any additional setup after loading the view, typically from a nib.
 }
