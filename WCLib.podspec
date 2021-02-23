@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.author           = { '394771176' => '394771176@qq.com' }
   s.source           = { :git => 'https://github.com/394771176/WCLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.requires_arc = true
   s.ios.deployment_target = '9.0'
 
   # s.source_files = 'WCLib/Classes/**/*'
