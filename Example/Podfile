@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'WCLib_Example' do
+  pod 'WCLib', :path => '../'
+
+  target 'WCLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

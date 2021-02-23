@@ -1,0 +1,22 @@
+{
+  "name": "WCLib",
+  "version": "0.1.0",
+  "summary": "A short description of WCLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/394771176/WCLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "394771176": "wangzhicheng@chelun.com"
+  },
+  "source": {
+    "git": "https://github.com/394771176/WCLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "WCLib/Classes/**/*"
+}

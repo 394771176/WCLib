@@ -1,0 +1,6 @@
+framework module WCLib {
+  umbrella header "WCLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
