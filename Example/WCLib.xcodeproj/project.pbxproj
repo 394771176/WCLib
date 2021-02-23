@@ -21,6 +21,14 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		60906D8125E575FE00805100 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60906D8025E575FE00805100 /* WebKit.framework */; };
+		60906D8325E5760400805100 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60906D8225E5760400805100 /* Security.framework */; };
+		60906D8725E5761600805100 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 60906D8625E5761600805100 /* libsqlite3.tbd */; };
+		60906D9025E5762600805100 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60906D8F25E5762600805100 /* CoreTelephony.framework */; };
+		60906D9425E5763E00805100 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60906D9325E5763E00805100 /* CFNetwork.framework */; };
+		60906D9625E5764600805100 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60906D9525E5764600805100 /* SystemConfiguration.framework */; };
+		60906D9A25E576BE00805100 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 60906D9925E576BE00805100 /* libc++.tbd */; };
+		60906D9E25E576F900805100 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 60906D9D25E576F900805100 /* libz.tbd */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		CEA60F71F57EFB4424D296A8 /* Pods_WCLib_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B236554BA79831EE21F449 /* Pods_WCLib_Example.framework */; };
@@ -38,7 +46,7 @@
 
 /* Begin PBXFileReference section */
 		5A63D644D65E178142CA6C48 /* Pods_WCLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WCLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BA6014946F5F1D0A54D5618 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5BA6014946F5F1D0A54D5618 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WCLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WCLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,6 +66,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		60906D8025E575FE00805100 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		60906D8225E5760400805100 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		60906D8625E5761600805100 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		60906D8F25E5762600805100 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		60906D9325E5763E00805100 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		60906D9525E5764600805100 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		60906D9925E576BE00805100 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		60906D9D25E576F900805100 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		772565611CDB0C7B16DF522C /* Pods-WCLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WCLib_Example.release.xcconfig"; path = "Target Support Files/Pods-WCLib_Example/Pods-WCLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -65,8 +81,8 @@
 		A8A2E75F11AE36EFEDB812D8 /* Pods-WCLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WCLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-WCLib_Tests/Pods-WCLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C1B236554BA79831EE21F449 /* Pods_WCLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WCLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D22D3B71CB5EBD3D57976DE6 /* Pods-WCLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WCLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-WCLib_Example/Pods-WCLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EA8149B105F3720777AD71F1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F2F890EBAA7453831E870902 /* WCLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WCLib.podspec; path = ../WCLib.podspec; sourceTree = "<group>"; };
+		EA8149B105F3720777AD71F1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F2F890EBAA7453831E870902 /* WCLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WCLib.podspec; path = ../WCLib.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +90,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60906D9E25E576F900805100 /* libz.tbd in Frameworks */,
+				60906D9A25E576BE00805100 /* libc++.tbd in Frameworks */,
+				60906D9625E5764600805100 /* SystemConfiguration.framework in Frameworks */,
+				60906D9425E5763E00805100 /* CFNetwork.framework in Frameworks */,
+				60906D9025E5762600805100 /* CoreTelephony.framework in Frameworks */,
+				60906D8725E5761600805100 /* libsqlite3.tbd in Frameworks */,
+				60906D8325E5760400805100 /* Security.framework in Frameworks */,
+				60906D8125E575FE00805100 /* WebKit.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -119,6 +143,14 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				60906D9D25E576F900805100 /* libz.tbd */,
+				60906D9925E576BE00805100 /* libc++.tbd */,
+				60906D9525E5764600805100 /* SystemConfiguration.framework */,
+				60906D9325E5763E00805100 /* CFNetwork.framework */,
+				60906D8F25E5762600805100 /* CoreTelephony.framework */,
+				60906D8625E5761600805100 /* libsqlite3.tbd */,
+				60906D8225E5760400805100 /* Security.framework */,
+				60906D8025E575FE00805100 /* WebKit.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -193,7 +225,6 @@
 				8B35E96AD2C8000E5BFE91CD /* Pods-WCLib_Tests.debug.xcconfig */,
 				A8A2E75F11AE36EFEDB812D8 /* Pods-WCLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -257,6 +288,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

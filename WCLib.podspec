@@ -34,15 +34,15 @@ Pod::Spec.new do |s|
     we.source_files = [
     'WCLib/Classes/Wechat_NoPay/1.8.9/*.h'
     ]
-	we.vendored_libraries = 'WCLib/Classes/Wechat_NoPay/1.8.9/libWeChatSDK.a'
+	 
+   we.vendored_libraries = 'WCLib/Classes/Wechat_NoPay/1.8.9/libWeChatSDK.a'
     #SystemConfiguration.framework, libz.dylib, libsqlite3.0.dylib, libc++.dylib, Security.framework, CoreTelephony.framework, CFNetwork.framework。
   	#s.libraries = 'z', 'c++', 'sqlite3.0'
   	#s.frameworks = 'SystemConfiguration','Security','CoreTelephony','CFNetwork'
 
-#1.8.9
-  	#[3]开发者需要在工程中链接上:Security.framework, CoreGraphics.framework, WebKit.framework。
-  	we.libraries = 'c++'
-  	we.frameworks = 'Security', 'CoreGraphics', 'WebKit'
+#1.8.6
+  	we.libraries = 'z', 'c++', 'sqlite3.0'
+  	we.frameworks = 'SystemConfiguration','CoreTelephony','CFNetwork','Security','CoreGraphics','WebKit'
   end
   
   # s.resource_bundles = {

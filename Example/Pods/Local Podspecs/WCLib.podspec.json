@@ -15,6 +15,7 @@
     "git": "https://github.com/394771176/WCLib.git",
     "tag": "0.1.0"
   },
+  "requires_arc": true,
   "platforms": {
     "ios": "9.0"
   },
@@ -29,8 +30,15 @@
         "WCLib/Classes/Wechat_NoPay/1.8.9/*.h"
       ],
       "vendored_libraries": "WCLib/Classes/Wechat_NoPay/1.8.9/libWeChatSDK.a",
-      "libraries": "c++",
+      "libraries": [
+        "z",
+        "c++",
+        "sqlite3.0"
+      ],
       "frameworks": [
+        "SystemConfiguration",
+        "CoreTelephony",
+        "CFNetwork",
         "Security",
         "CoreGraphics",
         "WebKit"
