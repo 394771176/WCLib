@@ -1,6 +1,6 @@
 {
   "name": "WCLib",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "WCLib.",
   "description": "常用的第三方SDK包.",
   "homepage": "https://github.com/394771176/WCLib",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/394771176/WCLib.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "requires_arc": true,
   "platforms": {
@@ -27,9 +27,9 @@
     {
       "name": "Wechat_NoPay",
       "source_files": [
-        "WCLib/Classes/Wechat_NoPay/1.8.6/*.h"
+        "WCLib/Classes/Wechat_NoPay/1.8.9/*.h"
       ],
-      "vendored_libraries": "WCLib/Classes/Wechat_NoPay/1.8.6/libWeChatSDK.a",
+      "vendored_libraries": "WCLib/Classes/Wechat_NoPay/1.8.9/libWeChatSDK.a",
       "libraries": [
         "z",
         "c++",
